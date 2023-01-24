@@ -4,70 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="538f6b8c-2d05-4453-b054-a4a02537cf2c" name="Changes" comment="created decomposing">
-      <change afterPath="$PROJECT_DIR$/discovery-service/pom.xml" afterDir="false" />
+    <list default="true" id="538f6b8c-2d05-4453-b054-a4a02537cf2c" name="Changes" comment="discovery service added">
+      <change afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-client-management/src/main/java/com/cydeo/service/UserClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-client-management/src/main/java/com/cydeo/service/UserClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app-client-management/target/app-client-management-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app-client-management/target/app-client-management-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-client-management/target/classes/com/cydeo/service/UserClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-client-management/target/classes/com/cydeo/service/UserClientService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app-domain-model/target/app-domain-model-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/app-domain-model-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/dto/ProjectDTO$ProjectDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/dto/ProjectDTO$ProjectDTOBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/dto/ProjectDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/dto/ProjectDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/dto/RoleDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/dto/RoleDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/dto/TaskDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/dto/TaskDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/dto/UserDTO$UserDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/dto/UserDTO$UserDTOBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/dto/UserDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/dto/UserResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/dto/UserResponseDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/entity/BaseEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/entity/BaseEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/entity/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/entity/Project.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/entity/ResponseWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/entity/ResponseWrapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/entity/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/entity/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/entity/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/enums/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/enums/Gender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/enums/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/enums/Status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/util/MapperUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/classes/com/cydeo/util/MapperUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/services.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-service/src/main/java/com/cydeo/ProjectServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/src/main/java/com/cydeo/ProjectServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/ProjectServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/ProjectServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/controller/ProjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/controller/ProjectController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/exception/ProjectServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/exception/ProjectServiceException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/repository/ProjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/repository/ProjectRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/service/ProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/service/ProjectService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/service/impl/ProjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/service/impl/ProjectServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-service/target/project-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/target/project-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-service/target/project-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/target/project-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cydeo/TaskServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/cydeo/TaskServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/target/classes/com/cydeo/TaskServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/target/classes/com/cydeo/TaskServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/target/classes/com/cydeo/controller/TaskController.class" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/target/classes/com/cydeo/controller/TaskController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/target/classes/com/cydeo/exception/TaskServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/target/classes/com/cydeo/exception/TaskServiceException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/target/classes/com/cydeo/respository/TaskRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/target/classes/com/cydeo/respository/TaskRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/target/classes/com/cydeo/service/TaskService.class" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/target/classes/com/cydeo/service/TaskService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/target/classes/com/cydeo/service/impl/TaskServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/target/classes/com/cydeo/service/impl/TaskServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-service/target/task-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/target/task-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-service/target/task-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/target/task-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/cydeo/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/cydeo/UserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/UserServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/UserServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/exception/UserServiceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/exception/UserServiceException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/repository/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/repository/RoleRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/service/RoleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/service/impl/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/service/impl/RoleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/cydeo/service/impl/UserServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/user-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/user-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/user-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/user-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
@@ -86,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="part2-containerized" />
+        <entry key="$PROJECT_DIR$" value="part3-eurika" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -147,6 +96,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.GatewayServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProjectServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="project-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.ProjectServiceApplication" />
@@ -185,7 +141,7 @@
       <workItem from="1674402517849" duration="351000" />
       <workItem from="1674420603644" duration="3732000" />
       <workItem from="1674489494749" duration="561000" />
-      <workItem from="1674490127557" duration="8152000" />
+      <workItem from="1674490127557" duration="11996000" />
     </task>
     <task id="LOCAL-00001" summary="created decomposing">
       <created>1674495199607</created>
@@ -194,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674495199607</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="discovery service added">
+      <created>1674580771675</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674580771675</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created decomposing" />
-    <option name="LAST_COMMIT_MESSAGE" value="created decomposing" />
+    <MESSAGE value="discovery service added" />
+    <option name="LAST_COMMIT_MESSAGE" value="discovery service added" />
   </component>
 </project>
