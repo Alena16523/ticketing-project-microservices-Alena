@@ -15,8 +15,13 @@ spring:
     username: postgres
     password: admin
     driver-class-name: org.postgresql.Driver
+  sleuth:
+    sampler:
+      probability: 1
+  zipkin:
+    base-url: http://host.docker.internal:9411
 server:
-  port: 9090
+  port: 9093
 
 eureka:
   instance:
@@ -24,7 +29,8 @@ eureka:
     health-check-url-path: ${management.context-path}/health
   client:
     serviceUrl:
-      defaultZone: http://discovery-service:8761/eureka/ #telling where to register in the eurika
+      defaultZone: http://discovery-service:8761/eureka/
+      #telling where to register in the eurika
 
 
 management:
@@ -35,7 +41,7 @@ management:
     web:
       exposure:
         include: "*"
-  context-path: http://localhost:${server.port}/actuator
+  context-path: http://localhost/:${server.port}/actuator
 
 
 info:
@@ -45,4 +51,3 @@ info:
     version: '0.0.1-SNAPSHOT'
     spring-cloud-version: '2.2.6.RELEASE'
     spring-boot-version: '0.0.1-SNAPSHOT'
-
