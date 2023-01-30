@@ -1,6 +1,6 @@
-/Users/alenaelhajassaad/IdeaProjects/ticketing-project-microservices/task-service/src/main/java/com/cydeo/service/TaskService.java
-/Users/alenaelhajassaad/IdeaProjects/ticketing-project-microservices/task-service/src/main/java/com/cydeo/service/impl/TaskServiceImpl.java
-/Users/alenaelhajassaad/IdeaProjects/ticketing-project-microservices/task-service/src/main/java/com/cydeo/respository/TaskRepository.java
-/Users/alenaelhajassaad/IdeaProjects/ticketing-project-microservices/task-service/src/main/java/com/cydeo/controller/TaskController.java
-/Users/alenaelhajassaad/IdeaProjects/ticketing-project-microservices/task-service/src/main/java/com/cydeo/TaskServiceApplication.java
-/Users/alenaelhajassaad/IdeaProjects/ticketing-project-microservices/task-service/src/main/java/com/cydeo/exception/TaskServiceException.java
+/Users/alenaelhajassaad/IdeaProjects/ticketing-project-microservices/task-service/src/main/java/com/controller/TaskController.java
+/Users/alenaelhajassaad/IdeaProjects/ticketing-project-microservices/task-service/src/main/java/com/TaskServiceApplication.java
+/Users/alenaelhajassaad/IdeaProjects/ticketing-project-microservices/task-service/src/main/java/com/service/impl/TaskServiceImpl.java
+/Users/alenaelhajassaad/IdeaProjects/ticketing-project-microservices/task-service/src/main/java/com/exception/TaskServiceException.java
+/Users/alenaelhajassaad/IdeaProjects/ticketing-project-microservices/task-service/src/main/java/com/respository/TaskRepository.java
+/Users/alenaelhajassaad/IdeaProjects/ticketing-project-microservices/task-service/src/main/java/com/service/TaskService.java

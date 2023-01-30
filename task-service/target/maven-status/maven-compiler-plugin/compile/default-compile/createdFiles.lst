@@ -1,6 +1,6 @@
-com/cydeo/respository/TaskRepository.class
-com/cydeo/exception/TaskServiceException.class
-com/cydeo/service/impl/TaskServiceImpl.class
-com/cydeo/controller/TaskController.class
-com/cydeo/service/TaskService.class
-com/cydeo/TaskServiceApplication.class
+com/service/impl/TaskServiceImpl.class
+com/exception/TaskServiceException.class
+com/respository/TaskRepository.class
+com/TaskServiceApplication.class
+com/service/TaskService.class
+com/controller/TaskController.class

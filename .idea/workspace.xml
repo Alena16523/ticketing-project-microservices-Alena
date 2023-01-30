@@ -4,33 +4,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="538f6b8c-2d05-4453-b054-a4a02537cf2c" name="Changes" comment="curcuit breaker added">
+    <list default="true" id="538f6b8c-2d05-4453-b054-a4a02537cf2c" name="Changes" comment="monitoring added">
+      <change afterPath="$PROJECT_DIR$/config-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-client-management/src/main/java/com/cydeo/service/UserClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-client-management/src/main/java/com/service/UserClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app-client-management/target/app-client-management-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app-client-management/target/app-client-management-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-domain-model/src/main/java/com/cydeo/dto/ProjectDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/src/main/java/com/dto/ProjectDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-domain-model/src/main/java/com/cydeo/dto/RoleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/src/main/java/com/dto/RoleDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-domain-model/src/main/java/com/cydeo/dto/TaskDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/src/main/java/com/dto/TaskDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-domain-model/src/main/java/com/cydeo/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/src/main/java/com/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-domain-model/src/main/java/com/cydeo/dto/UserResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/src/main/java/com/dto/UserResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-domain-model/src/main/java/com/cydeo/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/src/main/java/com/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-domain-model/src/main/java/com/cydeo/entity/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/src/main/java/com/entity/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-domain-model/src/main/java/com/cydeo/entity/ResponseWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/src/main/java/com/entity/ResponseWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-domain-model/src/main/java/com/cydeo/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/src/main/java/com/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-domain-model/src/main/java/com/cydeo/entity/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/src/main/java/com/entity/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-domain-model/src/main/java/com/cydeo/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/src/main/java/com/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-domain-model/src/main/java/com/cydeo/enums/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/src/main/java/com/enums/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-domain-model/src/main/java/com/cydeo/enums/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/src/main/java/com/enums/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-domain-model/src/main/java/com/cydeo/util/MapperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/src/main/java/com/util/MapperUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app-domain-model/target/app-domain-model-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app-domain-model/target/app-domain-model-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service/src/main/java/com/cydeo/DiscoveryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/src/main/java/com/DiscoveryServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-service/target/discovery-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/target/discovery-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/discovery-service/target/discovery-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/target/discovery-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/services.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/cydeo/GatewayServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/java/com/GatewayServerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-service/target/gateway-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/gateway-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway-service/target/gateway-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/gateway-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/src/main/java/com/cydeo/ProjectServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/src/main/java/com/ProjectServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/src/main/java/com/cydeo/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/src/main/java/com/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/src/main/java/com/cydeo/exception/ProjectServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/src/main/java/com/exception/ProjectServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/src/main/java/com/cydeo/repository/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/src/main/java/com/repository/ProjectRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/src/main/java/com/cydeo/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/src/main/java/com/service/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/src/main/java/com/cydeo/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/src/main/java/com/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/ProjectServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/controller/ProjectController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/exception/ProjectServiceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/repository/ProjectRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/service/ProjectService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-service/target/classes/com/cydeo/service/impl/ProjectServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project-service/target/project-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/target/project-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project-service/target/project-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/project-service/target/project-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cydeo/TaskServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/TaskServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cydeo/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cydeo/exception/TaskServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/exception/TaskServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cydeo/respository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/respository/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cydeo/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/service/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/com/cydeo/service/impl/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/com/service/impl/TaskServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-service/target/task-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/target/task-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task-service/target/task-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/target/task-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/logs/user-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/logs/user-service.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/cydeo/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/cydeo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/cydeo/exception/UserServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/exception/UserServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/cydeo/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/cydeo/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/cydeo/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/cydeo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/cydeo/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/cydeo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/user-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/user-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/user-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/user-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
@@ -49,7 +90,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="part5-resilience4j" />
+        <entry key="$PROJECT_DIR$" value="part6-monitoring" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,6 +130,11 @@
     &quot;spring.configuration.checksum&quot;: &quot;2bd2a80198c76cbe94d39c80696a93d5&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cydeo" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -96,7 +142,21 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DiscoveryServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigurationServerApplication">
+    <configuration name="ConfigurationServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.ConfigurationServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="discovery-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.DiscoveryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="discovery-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.DiscoveryServiceApplication" />
@@ -110,9 +170,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.GatewayServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GatewayServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="gateway-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.GatewayServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="project-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ProjectServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,9 +198,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="task-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.TaskServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TaskServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="task-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.TaskServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.UserServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,6 +247,7 @@
       <workItem from="1674676942147" duration="21000" />
       <workItem from="1674753405860" duration="2938000" />
       <workItem from="1674835793126" duration="5438000" />
+      <workItem from="1675009220418" duration="8388000" />
     </task>
     <task id="LOCAL-00001" summary="created decomposing">
       <created>1674495199607</created>
@@ -195,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674835831218</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="monitoring added">
+      <created>1675009356585</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675009356585</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +313,7 @@
     <MESSAGE value="discovery service added" />
     <MESSAGE value="edge server added" />
     <MESSAGE value="curcuit breaker added" />
-    <option name="LAST_COMMIT_MESSAGE" value="curcuit breaker added" />
+    <MESSAGE value="monitoring added" />
+    <option name="LAST_COMMIT_MESSAGE" value="monitoring added" />
   </component>
 </project>

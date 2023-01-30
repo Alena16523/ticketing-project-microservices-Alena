@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: git #i am reading from my file system
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Alena16523/ticketing-project-microservices-config
+          default-label: main
+          username: Alena16523
+          password: '{cipher}gf95366a3457a8571de1d83b47269bd9ed89a31c44e295e81920746cbe4e89450' #token created in github, encrypted
+      fail-fast: true
+
+encrypt: #to encrypt password
+  key: cydeo
+
+server:
+  port: 8888

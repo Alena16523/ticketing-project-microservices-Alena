@@ -1,6 +1,6 @@
-com/cydeo/exception/ProjectServiceException.class
-com/cydeo/ProjectServiceApplication.class
-com/cydeo/service/impl/ProjectServiceImpl.class
-com/cydeo/repository/ProjectRepository.class
-com/cydeo/service/ProjectService.class
-com/cydeo/controller/ProjectController.class
+com/service/impl/ProjectServiceImpl.class
+com/service/ProjectService.class
+com/exception/ProjectServiceException.class
+com/ProjectServiceApplication.class
+com/repository/ProjectRepository.class
+com/controller/ProjectController.class
